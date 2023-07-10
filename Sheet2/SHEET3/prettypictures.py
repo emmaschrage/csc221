@@ -1,0 +1,10 @@
+from gasp import *
+begin_graphics()
+Circle((100, 400), 40)
+Circle((115, 415), 5)
+Circle((85, 415), 5)
+Line((90, 395), (100, 415))
+Line((90, 395), (110, 395))
+Arc((100, 405), 30, 225, 315)
+update_when('key_pressed')
+end_graphics()
